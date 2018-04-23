@@ -105,7 +105,7 @@ for x in range(n+1-X):
 
 受到科学边界的启发, 我发现有些点在遍历时是无用的, 能不能进一步削减遍历范围呢?  
 三维不好想, 不妨先想明白二维的形式  
-![](A:\GitHub\my-markdown-test-area\scienceEdge.png)  
+![](https://github.com/SilentSpiral/Count-Lines-In-a-Cube/blob/master/scienceEdge.png?raw=true)  
 此图是为n=12的情形, 图中向量为(5,3), 黑色方框为其科学边界  
 观察可知蓝色方框内的点必定可达黑色框内其他点  
 故黑色方框减去蓝色方框剩下的格点,可以唯一的表示出该向量在正方体内生成的所有直线  
